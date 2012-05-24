@@ -17,17 +17,23 @@
 </head>
 <body>
   <div class="wrapper2">
-    <header2>
-      <ul>
-        <li><a href="../guide/index.html">get started</a></li>
-        <li><a href="../docs/index.html">documentation</a></li>
-        <li><a href="../project/support.html">support</a></li>
-        <li><a href="../project/about.html">about</a></li>
-        <li><a href="../contribute/index.html">contribute</a></li>
-        </ul>
-      </ul>
-    </header2>
-
+<header2>
+  <ul>
+    <li class="active">
+      <a href="../guide/index.html">Overview</a>
+    </li>
+    <li>
+      <a href="../guide/why.html">Why Vagrant?</a>
+    </li>
+    <li>
+      <a href="../guide/introduction.html">Introduction</a>
+    </li>
+    <li>
+      <a href="../guide/setup.html">Project Setup</a>
+    </li>
+    </ul>
+  </ul>
+</header2>
     <div class="wrapper">
       <header>
         <h1><a href="../guide/index.html">Modernist</a></h1>
@@ -43,32 +49,10 @@
         </ul>
       </header>
 
-      <section>
-
-
-
-<div class="row">
-  <div class="span3 Module sidebar">
-    <div class="well" style="padding: 8px 0px;">
-    <ul class="nav nav-list">
-      <li class="active">
-        <a href="../guide/index.html">Overview</a>
-      </li>
-      <li>
-        <a href="../guide/why.html">Why Vagrant?</a>
-      </li>
-      <li>
-        <a href="../guide/introduction.html">Introduction</a>
-      </li>
-      <li>
-        <a href="../guide/setup.html">Project Setup</a>
-      </li>
-    </ul>
-    </div>
-  </div>
-
-  <div class="span9">
-    <h1 id='getting_started_with_vagrant'>Getting Started with Vagrant</h1>
+<section>
+  <div class="row">
+    <div class="span9">
+      <h1 id='getting_started_with_vagrant'>Getting Started with Vagrant</h1>
 
 <p>Vagrant uses <a href='http://www.virtualbox.org'>Oracle&#8217;s VirtualBox</a> to build configurable, lightweight, and portable virtual machines dynamically. The first couple pages serve to introduce you to Vagrant and what it has to offer while the rest of the guide is a technical walkthrough for building a fully functional web development environment. The getting started guide concludes by explaining how to package the newly created vagrant environment so other developers can get up and running in just a couple commands.</p>
 
@@ -94,19 +78,18 @@ $ vagrant up
 </pre>
 <p>While the rest of the getting started guide will focus on explaining how to build a fully functional virtual machine to serve Rails applications, you should get used to the above snippet of code. After the initial setup of any Vagrant environment, the above is all any developer will need to create their development environment! Note that the above snippet does actually create a fully functional 512MB virtual machine running Ubuntu in the background, although the machine doesn&#8217;t do much in this state.</p>
 
-    <ul class="pager">
-    
-    
-        <li class="next">
-            <a href="../guide/why.html">Why Vagrant? &rarr;</a>
-        </li>
-    
-    </ul>
-  </div>
-</div>
-      </section>
+      <ul class="pager">
+      
+      
+          <li class="next">
+              <a href="../guide/why.html">Why Vagrant? &rarr;</a>
+          </li>
+      
+      </ul>
     </div>
   </div>
+</section>
+</div>  </div>
 
   <footer>
     <p>Project maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
